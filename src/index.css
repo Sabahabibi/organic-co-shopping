@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: lateef_bold;
+  src: url(./assets/fonts/Lateef-Bold.ttf);
+}
+@font-face {
+  font-family: lateef_light;
+  src: url(./assets/fonts/Lateef-Light.ttf);
+}
+
+@font-face {
+  font-family: "lateef_medium";
+  src: url(./assets/fonts/Lateef-Medium.ttf);
+}
+
+@font-face {
+  font-family: lateef_regular;
+  src: url(./assets/fonts/Lateef-Regular.ttf);
+}
+
+body {
+  font-family: "lateef_medium";
+}
