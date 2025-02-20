@@ -1,9 +1,9 @@
-import {provider}
+import DashboardPage from "./pages/dashboard/dashboardPage";
 
 function App() {
   return (
     <>
-      <provider></provider>
+      <DashboardPage />
     </>
   );
 }
