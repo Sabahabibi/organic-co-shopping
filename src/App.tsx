@@ -1,9 +1,10 @@
-import DashboardPage from "./pages/dashboard/dashboardPage";
+import ProfilePage from "./pages/profile/profilePage";
+import Routing from "./router/routing";
 
 function App() {
   return (
     <>
-      <DashboardPage />
+      < Routing/>
     </>
   );
 }
